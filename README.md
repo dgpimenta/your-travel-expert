@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Apenas uma simulação de página inicial de um site de viagens.
 
-- [Acesse o projeto finalizado, online](https://dgpimenta.github.io/nlw-setup-explorer)
+- [Acesse o projeto finalizado, online](https://dgpimenta.github.io/your-travel-expert/)
 
 ## 🔖 Layout
 
