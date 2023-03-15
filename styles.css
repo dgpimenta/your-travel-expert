@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    text-align: center;     
+    
+    background-image: url('./assets/TravelExpert.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;    
+}
+
+a {
+    text-decoration: none;
+    color: #151718;        
+}
+
+h1 {
+    font-size: 4rem;
+    margin-block: 12.5rem 0.25rem;    
+    line-height: 5,375rem;
+    color: #151718;
+}
+
+h1 span {
+    color: #DB2777;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    color: #2C2E2F;
+}
+
+.links {
+    font-size: 1.25rem;
+    margin-top: 4.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+a:last-child {
+    color: #FFFFFF;
+    background: #DB2777;
+
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+
+    transition: background-color 0.1s;
+}
+
+a:last-child:hover {
+    background: #af1282;
+}
+
+@media (max-width: 540px) {
+    body {
+        padding: 1.1rem;
+    }
+
+    h1 {        
+        font-size: 2rem;
+        margin-top: 10rem;
+    }    
+
+    p {
+        font-size: 1rem;
+    }
+
+    .links {
+        font-size: 1rem;
+    }
+  }
+
+
+
+
